@@ -1,22 +1,29 @@
+.box{
+    width: 100%;
+    height: 100%;
+}
 .head{
     width: 100%;
     height: 52px;
     background-color: #31394a;
-    position: fixed;
-    top: 0;
 }
-.head .logo{
+.head .head_left .logo{
     width: 50px;
     height: 52px;
 }
 .head .head_left{
-    /* width: 70%; */
+    width: 70%;
     height: 52px;
 }
 .head .head_left div{
     float: left;
 }
-.head .head_left ul li{
+.head .head_left .ul_one{
+    height: 52px;
+    width: 1170px;
+}
+.head .head_left .ul_one li{
+    height: 52px;
     float: left;
     font-size: 16px;
     line-height: 52px;
@@ -34,17 +41,13 @@
     position: fixed;
     bottom: 0;
 }
-.head .head_left .ul_two{
+.head div{
+    float: left;
+}
+.head .head_right{
     float: right;
+    width: 30%;
+    height: 52px;
 }
-.head .head_left .ul_two li{
-    padding:0 10px;
-}
-.head .head_left .ul_two li span{
-    width:40px;
-    height:51px;
-    background-color:#fff;
-}
-.head .head_left .ul_two li p{
-    color: #eee;
-}
+
+
