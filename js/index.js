@@ -40,11 +40,4 @@ img3.onclick = function () {
         calendar.style.display = "none";
     }
 }
-d1.onclick = function () {
-    if (d2.style.display == 'none') {
-        d2.style.display = "block";
-    } else if (d2.style.display == 'block') {
-        d2.style.display = "none";
-    }
-}
 // demo3.datepicker({});
