@@ -1,0 +1,31 @@
+.green{
+    background-color:#19bc7d;
+}
+.div-a{
+    width: 120px;height:45px;color: aliceblue;font-size: 20px;border-radius: 1%; 
+}
+.div-cj{
+    width: 150px;height:50px;color: aliceblue;font-size: 20px;border-radius: 1%; 
+}
+.content{
+    width: 1920px;
+    height: 386px;
+    position: relative;
+    margin-top: 20px;
+}
+.content .leadbox{
+    width: 1920px;
+    height: 386px;
+}
+.content_right .div-big{
+    font-size: 22px;
+    font-family: '粗体';
+}
+.content_right .div-small{
+    font-size: .929rem;
+    font-family: '雅黑';
+    padding: 15px 0 15px 0;
+}
+.content .div-left{
+    margin: 0 20px 0 0;
+}

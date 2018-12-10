@@ -1,0 +1,156 @@
+.show{
+    width: 100%;
+    height: 1523px;
+}
+.tabDivCreate .textField{
+    max-width: 100%;
+    border: none !important;
+    box-shadow: 0px 0px 0px 0px !important;
+}
+.rwb{
+    width: 100%;
+    height: 1523px;
+}
+.p30{
+    padding: 30px;
+}
+.pL30{
+    padding-left: 30px !important; 
+}
+.pL35{
+    padding-left: 40px !important; 
+}
+.pL30{
+    padding-right: 30px;
+}
+.pR30{
+    padding-right: 15px !important; 
+}
+
+.pR50{
+    padding-left: 30px !important; 
+    padding-right: 178px;
+}
+.pR, .posRel, .posrel {
+    position: relative;
+}
+.dIB {
+    display: inline-block;
+}
+.fR{
+    float: right!important;
+}
+.lbox{
+    background-color: #fff;
+}
+.cvpadding{
+    padding: 20px 0 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eee;
+}
+.set_mw {
+    max-width: 64%;
+}
+.dvTitle{
+    font-size: 30px;
+    color: #000;
+    font-family: "ProximaNovaLight",sans-serif;
+}
+.dvTitles{
+    position: relative;
+    top: 5px;
+}
+.alignright {
+    text-align: right!important;
+}
+.alignrights {
+    text-align: center!important;
+}
+#preHTML{
+    font-size: 17px;
+    color: grey;
+}
+#secDiv{
+    height: 442px;
+    margin-bottom: 40px !important;
+}
+#secDiv-Address{
+    margin-bottom: 40px !important;
+}
+#preHTML #secDiv table{
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+}
+#preHTML #secDiv table tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.contHeadInfo{
+    width: 1380px;
+    height: 39px;
+    color: #222;
+    padding: 10px 0 5px 0 !important; 
+}
+.secContent{
+    min-width: 900px;
+    height: 403px !important;
+}
+.mT0{
+    margin-top: 0 !important;
+}
+.contInfoTab{
+    width: 47%;
+}
+.floatL{
+    float: left;
+}
+.floatR{
+    float: right;
+}
+.tabDivCreate {
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+.proprietor{
+    top: 1px;
+    padding: 19px 6px 6px 0!important;
+    color: #666;
+    display: inline-block;
+    width: 40%;
+    padding-right: 15px;
+    font-family: ProximaNovaRegular,sans-serif!important;
+    line-height: 24px;
+    display: flex;
+}
+.Username{
+    color: rgb(34, 34, 34);
+    width: 60%;
+    vertical-align: bottom;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+    padding: 19px 0px 5px !important;
+}
+.Username:hover{
+    border-bottom: 1px solid rgb(105,207,243) !important;
+}
+.textField{
+    background-color: transparent;
+    padding: 0;
+    border: none!important;
+    box-shadow: none!important;
+    max-width: 100%;
+}
+.invAddLinesBtn {
+    width: 1380px;
+    height: 26px;
+    background-color: rgb(249, 248, 248);
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 20px 0px !important;
+}

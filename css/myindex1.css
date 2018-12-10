@@ -1,0 +1,645 @@
+.body{
+    width: 100%;
+    position: relative;
+}
+.blue{
+    color:#2C7BD0;
+}
+.clearfix:before, .clearfix:after{
+    content:"";
+    display: table;
+}
+.clearfix:after{
+    clear:both;
+}
+.body .banner{
+    width:100%;
+    height:67px;
+    background-color: #eee;
+    border-bottom:0.05px solid #9197a3;
+    position: fixed;
+    top:52px;
+    z-index:95;
+}
+.body .banner .caozuo1{
+    width:300px;
+    height:100%;
+    float:left;
+    position: relative;
+}
+.body .banner .caozuo1 .combo{
+    width:218px;
+    height:30px;
+    /* border:1px solid #9197a3; */
+    border:none;
+    border-radius: 5px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    position: relative;
+    overflow:hidden;
+}
+.body .banner .caozuo1:hover .combo{
+    border:1px solid #9197a3;
+    cursor: pointer;
+}
+.body .banner .caozuo1 .combo span{
+    line-height:30px;
+    margin-left:6%;
+    font-size:15px;
+}
+.body .banner .caozuo1 span.bian{
+    font-size:14px;
+    color:#888;
+    position:absolute;
+    top:25px;
+    left:250px;
+    width:40px;
+    height:30px;
+    display:none;
+}
+.body .banner .caozuo1:hover span.bian{
+    display:block;
+}
+.body .banner .caozuo1 .combo i{
+    float: right;
+    width: 0; 
+    height: 0;
+    margin-right:10px;
+    margin-top:10px;
+    border-width: 6px;
+    border-style: solid;
+    border-color:#888 transparent transparent transparent;
+}
+.body .banner .caozuo1 .search-list{
+    width:220px;
+    height:456px;
+    position: absolute;
+    top:52px;
+    left:20px;
+    background-color:#fff;
+    box-shadow:0 2px 4px 4px rgba(10, 12, 20, 0.126); 
+    z-index:93;
+    display: none;
+}
+.body .banner .caozuo1 .search-list .search{
+    width:100%;
+    height:30px;
+    border-bottom:1px solid #888;
+    position: relative;
+}
+.body .banner .caozuo1 .search-list .search input{
+    width:188px;
+    height:28px;
+    border:none;
+    outline-style:none;
+    /* text-indent:30px; */
+    position: absolute;
+    right:0;
+    top:0;
+    font-size:15px;
+}
+.body .banner .caozuo1 .search-list .contain{
+    width:220px;
+    height:393px;
+    overflow:scroll;
+    position: relative;
+}
+.body .banner .caozuo1 .search-list .contain span:nth-child(1){
+    display: block;
+    width:220px;
+    height:22px;
+    font-size:12px;
+    color:#888;
+    line-height:22px;
+    margin-left:5px;
+}
+.body .banner .caozuo1 .search-list .contain ul li{
+    display:block;
+    width:220px;
+}
+.body .banner .caozuo1 .search-list .contain ul li:hover{
+    background-color:#eee;
+}
+.body .banner .caozuo1 .search-list .contain ul li a{
+    font-size:15px;
+    color:#000;
+}
+.body .banner .caozuo1 .search-list .contain ul li span:nth-child(1){
+    width:14px;
+    height:14px;
+    display:block;
+    background:url(../image/icon08.png);
+    background-position:0 0;
+    position: relative;
+    left:10px;
+    top:7px;
+}
+.body .banner .caozuo1 .search-list .contain ul li span:nth-child(2){
+    display: block;
+    width:120px;
+    position: relative;
+    left:50px;
+    top:-7px;
+}
+.body .banner .caozuo1 .search-list .createview{
+    width:220px;
+    height:30px;
+    border-top:1px solid #9197a3;
+}
+.body .banner .caozuo1 .search-list .createview span{
+    display:block;
+    width:150px;
+    height:30px;
+    line-height:30px;
+    position: relative;
+    left:70px;
+    font-size:15px;
+    color:blue;
+}
+.body .banner .caozuo1 .search-list .createview i{
+    display: block;
+    width:13px;
+    height:13px;
+    background:url(../image/icon07.png) center center no-repeat;
+    background-position: 0 0;
+    position: relative;
+    left:50px;
+    top:-23px;
+}
+.body .banner .caozuo1 .search-list .search i{
+    display: block;
+    width:15px;
+    height:15px;
+    position:absolute;
+    bottom:7px;
+    left:9px;
+    background:url(../image/icon06.png);
+    background-position:0 0;
+}
+.body .banner .caozuo2{
+    width:500px;
+    height:100%;
+    float:right;
+}
+.body .banner .caozuo2 .shitu{
+    width:70px;
+    height:100%;
+    float:left;
+}
+.body .banner .caozuo2 .shitu span{
+    display:block;
+    width:20px;
+    height:20px;
+    float:left;
+    margin-top:25px;
+}
+.body .banner .caozuo2 .shitu span.lie{
+    background:url(../image/icon01.png);
+    background-position:39px 0;
+    margin-right:15px;
+}
+.body .banner .caozuo2 .shitu span.xiang{
+    background:url(../image/icon01.png);
+    background-position:-20px 0;
+}
+.body .banner .caozuo2 .jia{
+    width:400px;
+    height:100%;
+    float:right;
+}
+.body .banner .caozuo2 .jia ul{
+    width:400px;
+    height:100%;
+}
+.body .banner .caozuo2 .jia ul li{
+    display:block;
+    width:25%;
+    height:100%;
+    float:left;
+}
+.body .banner .caozuo2 .jia ul li a{
+    color:#000;
+    font-size:15px;
+    line-height:30px;
+}
+.body .banner .caozuo2 .jia ul li div{
+    width:80px;
+    height:30px;
+    border:1px solid #9197a3;
+    background-color:#fff;
+    border-radius:2px;
+    margin-top:20px;
+    text-indent: 35px;
+    position: relative;
+    overflow:hidden;
+}
+.body .banner .caozuo2 .jia ul li div:hover{
+    border-bottom:1px solid #000;
+}
+.body .banner .caozuo2 .jia ul li:nth-child(4) div{
+    width:50px;
+    height:30px;
+}
+.body .banner .caozuo2 .jia ul li:nth-child(4) div i{
+    display:block;
+    width:35px;
+    height:19px;
+    position: relative;
+    top:6px;
+    left:8px;
+    background:url(../image/icon03.png);
+    background-position:0 0;
+}
+.body .banner .caozuo2 .jia ul li div i{
+    display: block;
+    width:13px;
+    height:13px;
+    background:url(../image/icon07.png);
+    background-position:1px -2px;
+    position: absolute;
+    top:8px;
+    left:10px;
+}
+.body .banner .caozuo2 .jia ul li div#caozuo{
+    width:100px;
+    height:120px;
+    background-color:#fff;
+    box-shadow:0 2px 4px 3px rgba(10, 12, 20, 0.126); 
+    z-index:99;
+    border:none;
+    display: none;
+    position: relative;
+    right:50px;
+    top:-20px;
+    text-indent:10px;
+    z-index:93;
+}
+.body .banner .caozuo2 .jia ul li div#caozuo ul{
+    display:block;
+    width:100px;
+    height:120px;
+    padding:10px 0;
+}
+.body .banner .caozuo2 .jia ul li div#caozuo ul li{
+    display:block;
+    width:100px;
+    height:30px;
+}
+.body .banner .caozuo2 .jia ul li div#caozuo ul li:hover{
+    background-color:#eee;
+}
+.body .banner .caozuo2 .jia ul li div#caozuo ul li span{
+    display:block;
+    width:80px;
+    height:30px;
+    margin-left:10px;
+}
+.body .banner .caozuo2 .jia ul li div#caozuo ul li:nth-child(3) span{
+    border-bottom:1px solid #9197a3;
+}
+.body .contain{
+    width:100%;
+    height:100%;
+    position: relative;
+    /* top:119px; */
+}
+.body .contain .option{
+    display: block;
+    width:15%;
+    height:850px;
+    float:left;
+    overflow:hidden;
+    position: absolute;
+    background-color:#fff;
+    border-right:1px solid #9197a3;
+}
+.body .contain .option .top{
+    width:15%;
+    height:50px;
+    position: fixed;
+    top:119px;
+    background-color:#fff;
+    z-index:92;
+    border-right:1px solid #9197a3;
+}
+.body .contain .option .top input{
+    width:200px;
+    height:40px;
+    border:none;
+    outline-style: none;
+    color:#888;
+    font-size:15px;
+    text-indent: 10px;
+    position: absolute;
+    top:4px;
+    /* display:none; */
+}
+.body .contain .option .top input#dian{
+    width:200px;
+    height:30px;
+    border-bottom:1px solid #888;
+    display:block;
+    position:absolute;
+    left:15px;
+    padding-left:10px;
+    font-style: italic;
+    display:none;
+}
+.body .contain .option .top input#dian:hover{
+    border-bottom:1px solid blue;
+}
+.body .contain .option .top span{
+    display: block;
+    width:15px;
+    height:15px;
+    position: absolute;
+    top:15px;
+    right:15px;
+    background:url(../image/icon06.png);
+    background-position:0 0;
+    /* display:none; */
+}
+.body .contain .option .top i{
+    display: block;
+    width:15px;
+    height:15px;
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:url(../image/icon06.png);
+    background-position:0 0;
+    display:none;
+}
+.body .contain .option .lv{
+    width:100%;
+    height:745px;
+    overflow:scroll;
+    text-indent: 15px;
+    position: relative;
+    top:169px;
+}
+.body .contain .option .lv ul{
+    display: block;
+    width:100%;
+}
+.body .contain .option .lv ul li{
+    display:block;
+    width:100%;
+    height:30px;
+}
+.body .contain .option .lv ul li a{
+    color:#000;
+    font-size:15px;
+}
+.body .contain .option .bottom{
+    width:15%;
+    height:50px;
+    position: fixed;
+    bottom:28px;
+    background-color:#fff;
+}
+.body .contain .biao{
+    width:85%;
+    height:850px;
+    float:right;
+    /* background-color:#fff; */
+    border-left:1px solid #9197a3;
+}
+.body .contain .biao #dj{
+    width:10px;
+    height:40px;
+    background-color:#9197a3;
+    position: fixed;
+    top:50%;
+    cursor: pointer;
+    z-index:91;
+}
+.body .contain .biao .dj i{
+    position: absolute;
+    top:18px;
+    left:4px;
+    display:inline-block;
+    width:4px;
+    height:4px;
+    border-right:1px solid #fff;
+    border-bottom:1px solid #fff;
+    transform:rotate(135deg);
+}
+.body .contain .biao .table{
+    width:100%;
+    /* height:770px; */
+    background-color:#fff;
+    border-left:1px solid #9197a3;
+    position: relative;
+    top:119px;
+}
+.body .contain .biao .table table{
+    width:100%;
+    /* height:770px; */
+    display:block;
+    position: relative;
+}
+.body .contain .biao .table table thead{
+    display: block;
+    width:85%;
+    height:42px;
+    position: fixed;
+    top:119px;
+    border-bottom:3px double #9197a3;
+    background-color:#fff;
+    z-index:92;
+    /* border-left:1px solid #9197a3; */
+}
+.body .contain .biao .table table thead tr{
+    display:block;
+    width:100%;
+    height:42px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.body .contain .biao .table table thead tr td{
+    display:block;
+    float:left;
+    height:40px;
+    padding:0 10px;
+}
+.body .contain .biao .table table thead tr td a{
+    font-size:14px;
+    color:#888;
+    line-height:40px;
+}
+.body .contain .biao .table table thead tr td:nth-child(1){
+    width:3%;
+}
+.body .contain .biao .table table thead tr td:nth-child(1) i{
+    display: block;
+    width:21px;
+    height:17px;
+    background:url(../image/icon05.png);
+    background-position:-7px -3px;
+    margin-top:11px;
+}
+.body .contain .biao .table table thead tr td:nth-child(2){
+    width:3%;
+}
+.body .contain .biao .table table thead tr td:nth-child(3){
+    width:3%;
+}
+.body .contain .biao .table table thead tr td:nth-child(4){
+    width:4%;
+}
+.body .contain .biao .table table thead tr td:nth-child(5){
+    width:6%;
+}
+.body .contain .biao .table table thead tr td:nth-child(6){
+    width:5%;
+}
+.body .contain .biao .table table thead tr td:nth-child(7){
+    width:3%;
+}
+.body .contain .biao .table table thead tr td:nth-child(8){
+    width:3%;
+}
+.body .contain .biao .table table thead tr td:nth-child(9){
+    width:3%;
+}
+.body .contain .biao .table table thead tr td:nth-child(10){
+    width:5%;
+}
+.body .contain .biao .table table thead tr td:nth-child(11){
+    width:5%;
+}
+.body .contain .biao .table table tbody{
+    display: block;
+    width:100%;
+    /* height:725px; */
+    position: relative;
+    top:42px;
+    overflow:scroll;
+    /* border-left:1px solid #9197a3; */
+}
+.body .contain .biao .table table tbody tr{
+    display:block;
+    width:100%;
+    /* height:41px; */
+    border-bottom:1px solid #9197a3;
+    display:flex;
+    justify-content: space-evenly;
+}
+.body .contain .biao .table table tbody tr:hover{
+    background-color:#eee;
+}
+.body .contain .biao .table table tbody tr td{
+    display:block;
+    float:left;
+    /* height:40px; */
+    padding:0 10px;
+    overflow:hidden;
+}
+.body .contain .biao .table table tbody tr td a{
+    font-size:15px;
+    color:#000;
+    line-height:40px;
+}
+.body .contain .biao .table table tbody tr td:nth-child(1){
+    width:5%;
+}
+.body .contain .biao .table table tbody tr td:nth-child(2){
+    width:3%;
+}
+.body .contain .biao .table table tbody tr td:nth-child(3){
+    width:7%;
+}
+.body .contain .biao .table table tbody tr td:nth-child(4){
+    width:4%;
+}
+.body .contain .biao .table table tbody tr td:nth-child(5){
+    width:7%;
+}
+.body .contain .biao .table table tbody tr td:nth-child(6){
+    width:7%;
+}
+.body .contain .biao .table table tbody tr td:nth-child(7){
+    width:3%;
+}
+.body .contain .biao .table table tbody tr td:nth-child(8){
+    width:3%;
+}
+.body .contain .biao .table table tbody tr td:nth-child(9){
+    width:7%;
+}
+.body .contain .biao .table table tbody tr td:nth-child(10){
+    width:7%;
+}
+.body .contain .biao .table table tbody tr td:nth-child(11){
+    width:7%;
+}
+.body .contain .biao .shu{
+    width:85%;
+    height:50px;
+    background-color:#fff;
+    position: fixed;
+    bottom: 28px;
+    border-left:1px solid #9197a3;
+}
+.body .contain .biao .shu .tongji{
+    float:left;
+    width:100px;
+    height:100%;
+    text-indent: 15px;
+}
+.body .contain .biao .shu .tongji span{
+    font-size:15px;
+    font-weight:500;
+    line-height: 50px;
+}
+.body .contain .biao .shu .fanye{
+    float:right;
+    width:250px;
+    height:100%;
+}
+.body .contain .biao .shu .fanye .fan{
+    width:123px;
+    height:100%;
+    float:left;
+}
+.body .contain .biao .shu .fanye .fan select#ye{
+    width:120px;
+    height:30px;
+    margin-top:10px;
+    outline:none;
+}
+.body .contain .biao .shu .fanye .shul{
+    width:120px;
+    height:30px;
+    float:right;
+    margin-top:10px;
+    text-indent: 30px;
+}
+.body .contain .biao .shu .fanye .shul span{
+    font-size:15px;
+    line-height:30px;
+}
+.body .contain .biao .shu .fanye .shul i:nth-child(4){
+    display:block;
+    width:11px;
+    height:21px;
+    background:url(../image/icon09.png);
+    background-position:-2px -3px;
+    position: relative;
+    left:10px;
+    margin-top:-26px;
+    cursor: pointer;
+}
+.body .contain .biao .shu .fanye .shul i:nth-child(5){
+    display: block;
+    width:11px;
+    height:21px;
+    background:url(../image/icon09.png);
+    background-position:13px -3px;
+    position: relative;
+    left:85px;
+    margin-top:-21px;
+    cursor: pointer;
+}

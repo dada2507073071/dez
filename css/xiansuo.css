@@ -1,0 +1,111 @@
+.head{
+    width: 100%;
+    height: 52px;
+    background-color: #31394a;
+    top: 0;
+}
+.head .logo{
+    width: 50px;
+    height: 52px;
+}
+.head .head_left{
+    /* width: 70%; */
+    height: 52px;
+}
+.head .head_left div{
+    float: left;
+}
+.head .head_left ul li{
+    float: left;
+    font-size: 16px;
+    line-height: 52px;
+    font-weight: 100;
+    outline: none medium;
+    margin-left: 28px;
+}
+.head .head_left ul li a{
+    color: #eee;    
+}
+.footer{
+    width: 100%;
+    height: 28px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    position: fixed;
+    bottom: 0;
+}
+.head .head_left .ul_two{
+    float: right;
+}
+.head .head_left .ul_two li{
+    padding:0 10px;
+}
+.head .head_left .ul_two li span{
+    width:40px;
+    height:51px;
+    background-color:#fff;
+}
+.head .head_left .ul_two li p{
+    color: #eee;
+}
+ .biao .shu .tongji{
+    float:left;
+    width:100px;
+    height:100%;
+    text-indent: 15px;
+}
+ .biao .shu .tongji span{
+    font-size:15px;
+    font-weight:500;
+    line-height: 50px;
+}
+ .biao .shu .fanye{
+    float:right;
+    width:300px;
+    height:100%;
+    margin-right:100px;
+}
+.biao .shu .fanye .fan{
+    width:123px;
+    height:100%;
+}
+ .biao .shu .fanye .fan select#ye{
+    width:120px;
+    height:30px;
+} 
+.box_fenye{
+    width:100%;
+    height:40px;
+    float:right;
+    /*background-color:yellow;*/
+}
+.box_fenye .box_fenye_left{
+    width:10%;
+    height:40px;
+    /*background-color:red;*/
+    float:left;
+}
+.box_fenye .box_fenye_left>span{
+    display:inline-block;
+    text-indent:20px;
+    line-height:40px;
+    font-size:15px;
+    color:black;
+}
+.box_fenye .box_fenye_right{
+    float:right;
+    /*background-color:blue;*/
+    width:30%;
+    margin-left:20px;
+    text-align:right;
+    height:40px;
+    line-height: 40px;   
+}
+.box_fenye .box_fenye_right span{
+    font-size:15px;
+    float:right;
+    margin-top:8px;
+}
+.box_left_select{
+    float:left;
+    margin-top: 17px;
+}
